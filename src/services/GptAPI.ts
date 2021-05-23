@@ -13,7 +13,7 @@ class GptAPI {
                                n: number = 1): AxiosPromise {
         return axios({
             method: "POST",
-            url: `${completionParams.apiKey}inference`,
+            url: `${completionParams.apiKey}`,
             headers: {
                 "Content-Type": "application/json",
                 "Authorization": `Bearer`,
