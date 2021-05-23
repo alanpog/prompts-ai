@@ -22,7 +22,6 @@ class GptAPI {
                 "n": n,
                 "max_tokens": completionParams.maxTokens,
                 "temperature": completionParams.temperature,
-                "stop": completionParams.stop,
                 "top_p": completionParams.topP,
                 "presence_penalty": completionParams.presencePenalty,
                 "frequency_penalty": completionParams.frequencyPenalty
