@@ -15,7 +15,7 @@ class GptAPI {
             method: "POST",
             url: `${completionParams.apiKey}`,
             headers: {
-                "Content-Type": "application/json",
+                "Content-Type": "application/x-www-form-urlencoded",
                 "Authorization": `Bearer`,
             },
             data: {
